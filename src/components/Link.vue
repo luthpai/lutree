@@ -23,7 +23,7 @@ a {
       text-[22px]
       font-semibold
       opacity-[0.90]
-      text-gray-100
+      text-gray-200
       relative
 
       md:text-[26px]

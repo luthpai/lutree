@@ -4,13 +4,14 @@
 
 <style lang="scss">
 footer {
-  @apply fixed
-        bottom-0 
-        w-full 
-        flex 
-        justify-center 
-        text-pink-300 
-        bg-purple-900 py-2 
-        font-[16px];
+  @apply
+    w-full 
+    flex 
+    justify-center 
+    text-white
+    bg-transparent
+    backdrop-blur-sm
+    py-1 
+    font-[14px];
 }
 </style>

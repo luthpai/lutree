@@ -18,7 +18,7 @@ import Footer from '@/components/Footer.vue'
         to="https://github.com/luthpai"
         custom-class="bg-[#3D4451] animate__animated animate__fadeIn"
         icon="si-github"
-        small-text="(luthpai)"
+        small-text="~luthpai"
       />
       <Link
         name="WhatsApp"
@@ -37,7 +37,7 @@ import Footer from '@/components/Footer.vue'
         to="https://github.com/luthpi"
         custom-class="bg-[#3D4451] animate__animated animate__fadeIn"
         icon="si-github"
-        small-text="(luthpi)"
+        small-text="~luthpi"
       />
     </div>
   </main>
@@ -48,11 +48,15 @@ import Footer from '@/components/Footer.vue'
 *::selection
   @apply bg-transparent text-white
 
+#app
+  @apply flex flex-col justify-between min-h-screen gap-4
+
 body
-  @apply bg-gradient-to-b from-blue-800 via-blue-700 to-purple-700 overflow-x-hidden
+  @apply bg-gradient-to-b from-blue-800 via-purple-800 to-orange-700 overflow-x-hidden
 
 main
-  @apply flex h-screen gap-2 flex-col items-center justify-center gap-5
+  @apply flex gap-2 flex-col items-center justify-center gap-5 py-5 backdrop-blur-sm
+  min-height 90vh
 
 #buttonList
   @apply w-full flex flex-col gap-2 items-center box-border
